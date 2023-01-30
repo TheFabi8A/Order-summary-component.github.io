@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 85vh;
     margin: 25px;
 }
 
@@ -64,10 +64,10 @@ body {
 .block-plan {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #f8f9fe;
-    padding: 15px 0;
+    padding: 15px;
     border-radius: 15px;
     width: 90%;
 }
@@ -148,7 +148,7 @@ body {
     color: var(--bright-blue);
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
     body {
         background-image: url("images/pattern-background-desktop.svg");
         background-position: top center;
@@ -158,12 +158,6 @@ body {
     }
 
     .block-plan {
-        padding: 25px 0;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    body {
-        margin: 25px;
+        padding: 25px;
     }
 }
